@@ -7,7 +7,6 @@ const PORT = process.env.PORT || 3001;
 const mongoose = require('mongoose');
 const Bookmark = require('./models/Bookmark');
 
-
 app.use(express.json());
 app.use(cors());
 app.use(logger('dev'));
@@ -57,7 +56,7 @@ const start = async () => {
       console.log(`Server is live on port: ${PORT}`)
     })
   } catch (error) {
-    console.log(error)
+    console.log(`Catch error: ${error}`)
   }
 }
 start();
