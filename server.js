@@ -2,12 +2,13 @@
 // DEPENDENCIES
 ////////////////
 require('dotenv').config();
+//imports connection
+require('./config/connection');
 const express = require('express');
 const app = express();
 const cors = require('cors');
 const logger = require('morgan');
 const PORT = process.env.PORT || 3001;
-const mongoose = require('mongoose');
 const Bookmark = require('./models/Bookmark');
 
 ///////////////////
