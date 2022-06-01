@@ -1,11 +1,11 @@
 {
   "name": "bookmark--backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +19,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vanillajaviscript/bookmark--backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vanillajaviscript/bookmark--backend/issues"
+  },
+  "homepage": "https://github.com/Vanillajaviscript/bookmark--backend#readme",
+  "description": ""
 }
