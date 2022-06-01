@@ -51,7 +51,13 @@ app.post('/bookmarks', async(req, res) => {
   }
 });
 
-
-app.listen(PORT, () => {
-  console.log(`Server is live on Port: ${PORT}`)
-});
+const start = async () => {
+  try {
+    app.listen(PORT, () => {
+      console.log(`Server is live on port: ${PORT}`)
+    })
+  } catch (error) {
+    console.log(error)
+  }
+}
+start();
