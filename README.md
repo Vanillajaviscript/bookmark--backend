@@ -1,3 +1,6 @@
+# TRELLO LINK:
+[Trello](https://trello.com/invite/b/ItmsD0U3/cd39cbf3790bb67814d83919ab05096d/bookmarkd-scrum)
+
 # MEMBERS:
     Javier Delgado - Backend development and Repo Owner
     Rich Clarke - Backend development and Frontend Repo Owner
