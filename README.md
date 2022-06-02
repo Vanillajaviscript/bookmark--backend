@@ -14,7 +14,6 @@
     "mongoose": "^6.3.5",
     "morgan": "^1.10.0"
 
-
 # MODELS:
     models/Bookmark.js
 
