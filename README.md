@@ -17,9 +17,9 @@
 # MODELS:
     models/Bookmark.js
 
-| ROUTE    |     METHOD     | PATH      |
-|----------|:--------------:|:----------:|
-| INDEX    |  GET           | /bookmarks |
+| ROUTE    |     METHOD     | PATH           |
+|----------|:--------------:|:--------------:|
+| INDEX    |  GET           | /bookmarks     |
 | DESTROY  |  DELETE        | /bookmarks/:id |
 | UPDATE   |  PUT           | /bookmarks/:id |
-| CREATE   |  POST          | /bookmarks |
+| CREATE   |  POST          | /bookmarks     |
