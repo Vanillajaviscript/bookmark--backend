@@ -43,8 +43,9 @@ app.delete('/bookmarks/:id', async (req, res) => {
     console.log(error)
   }
 });
-
+////////////////
 //Update bookmark
+/////////////////
 app.put('/bookmarks/:id', async (req, res) => {
   try {
     res.json(await Bookmark.findByIdAndUpdate(req.params.id, req.body, {new: true}))
